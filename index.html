@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <h1>To Do List</h1>
+        </div>
+
+        <div class="grid-enter-1">
+            <div class="task">
+                <input type="text" placeholder="Enter Task" id="doThis" name="doThis" />
+            </div>
+            <div class="taskDate">
+                <input type="date" name="dateThis" id="dateThis" />
+            </div>
+            <div class="add">
+                <!--here add a button id-->
+                <input type="button" name="submitT" value="Add" onclick="addItem()" id="myBtn" />
+            </div>
+        </div>
+
+        <div class="grid-containe-3">
+            <div class="detailTask">
+                <label for="list">Task</label>
+            </div>
+            <div class="detailDate">
+                <label for="list">Date</label>
+            </div>
+            <div></div>
+            <div id="taskList">
+                <p id="addTask" value=""></p>
+            </div>
+            <div id="taskList">
+                <p id="addDate"></p>
+            </div>
+            <div id="taskList">
+                <p id="editeDetail"></p>
+            </div>
+        </div>
+    </div>
+    <script src="addClick.js"></script>
+</body>
+
+</html>

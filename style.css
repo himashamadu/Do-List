@@ -1,0 +1,91 @@
+body {
+    background-color: gainsboro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    margin: 25px 25px 100px 25px;
+}
+
+.container {
+    margin: 50px;
+    margin-bottom: 50px;
+    background-color: lightcyan;
+}
+
+.top {
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+    font-family: monospace;
+    background-color: midnightblue;
+}
+
+.grid-enter-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-auto-rows: minmax(50px, auto);
+    text-align: center;
+    box-sizing: border-box;
+    align-content: center;
+    max-width: 650px;
+    margin: auto;
+}
+
+.grid-enter-1>div {
+    margin: 5px;
+    padding: 10px;
+}
+
+.taskDate {
+    width: 150px;
+}
+
+.task {
+    width: 300px;
+}
+
+.add [type="button"] {
+    min-width: auto;
+    max-width: 100px;
+    cursor: pointer;
+    border-radius: 25%;
+    background-color: midnightblue;
+    color: aliceblue;
+    height: 90%;
+    padding: 5px;
+}
+
+input[type="text"],
+[type="button"],
+[type="date"] {
+    width: 100%;
+    padding: 5px;
+    height: 50%;
+}
+
+.grid-containe-3 {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 500px;
+    margin: auto;
+}
+
+.grid-containe-3>div {
+    margin: 10px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: initial;
+    font-family: sans-serif;
+    text-decoration: underline black;
+    text-decoration-thickness: 3px;
+}
+
+#taskList {
+    margin: 3px;
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+    font-family: Candara;
+    text-decoration: none;
+}
