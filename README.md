@@ -1,4 +1,6 @@
 # Do-List
+List the daily Task with the Date. Interface design with HTML and CSS.
+
 <br>
 <h2>Scrennshot</h2>
 
